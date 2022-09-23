@@ -1,0 +1,12 @@
+spring:
+  servlet:
+    multipart:
+      max-request-size: 10MB
+      max-file-size: 10MB
+
+server:
+  error:
+  include-message: always
+  include-binding-errors: always
+  include-stacktrace: on_trace_param
+  include-exception: false
